@@ -1,0 +1,91 @@
+#landing-section {
+    /* height: 80vh;  */
+    width: 100vw; 
+    background-image: url('../images/test.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 0px;
+}
+
+#landing-overlay {
+    height: 100%; 
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#info-header {
+    position: relative;
+    vertical-align: middle;
+    /* padding-bottom: 0px; */
+    /* padding-top: 0px; */
+    margin-bottom: 0px;
+}; 
+
+#header-column {
+    /* padding-top: 15px; */
+    /* padding-bottom: 0px; */
+    text-align: center;
+}
+
+#menu-row {
+    background: white;
+    margin-top: 0px;
+}
+
+#info-header-buttons {
+    background: #8A9ABC;
+    color: white;
+}
+
+#menu-title {
+    color: #8A9ABC;
+    font-size: 40px;
+}
+
+#menu-title-item {
+    text-align: center;
+}
+
+#statement-card-header {
+    color: white;
+    font-size: 20px;
+}
+
+#statement-card {
+    background:#8A9ABC;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+#statement-card-text {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#statement-card-header {
+    font-size: 35px;
+    color: black;
+    padding: 5px;
+}
+
+#quote-submit-button {
+    width: 100%;
+    font-size: 20px;
+    background: #8A9ABC;
+}
+
+#quote-form-header {
+    text-align: center;
+    font-size: 35px;
+}
+
+#quote-form-text {
+    text-align: center;
+    color: grey;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aloha Security</title>
+    <!-- You MUST include jQuery before Fomantic -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/landing.css" >
+</head>
+<body>
+    <!-- landing section  -->
+    <div class="ui grid container" id='landing-section'>
+        <!-- header  -->
+        <div class="ui top attached label" id="info-header">
+            <button class="ui button" id="info-header-buttons">
+                <i class="mail icon"></i>info@aloha.com
+            </button>
+            <button class="ui button" id="info-header-buttons" >
+                <i class="phone icon"></i>999-999-9999
+            </button>
+        </div>
+        <!-- menu  -->
+        <div class="one column row ui attached" id="menu-row">
+            <div class="middle aligned column">
+                    <div class="ui secondary menu" >
+                        <div class="ui four column grid container">
+                            <div class="seven wide computer sixteen wide mobile column">
+                                <!-- name  -->
+                                <div class="ui item" id="menu-title-item">
+                                    <h1 id="menu-title" >Aloha Security Systems</h1>
+                                </div>
+                            </div>
+                            <div class="three wide computer six wide mobile middle aligned column">
+                                    <!-- services dropdown  -->
+                                <div class="ui dropdown item right">
+                                <input type="hidden" name="services">
+                                <div class="text">Services</div>
+                                <i class="dropdown icon"></i>
+                                <div class="labeled icon menu">
+                                    <div class="item" data-value="male"><i class="eye icon"></i>Security Cameras</div>
+                                    <div class="item" data-value="female"><i class="id badge icon"></i>Access Control</div>
+                                    <div class="item" data-value="female"><i class="alarm icon"></i>Alarm Monitoring</div>
+                                    <div class="item" data-value="female"><i class="lock icon"></i>Metal Detectors</div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="three wide computer five wide mobile middle aligned column">
+                                <!-- contact  -->
+                                <a class="item">
+                                    Contact
+                                </a>
+                            </div>
+                            <div class="three wide computer five wide mobile middle aligned column">
+                                <!-- downloads  -->
+                                <a class="item">
+                                     Downloads
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- section below header  -->
+        <div class="centered row" id="context">
+            <!-- pick between residential or commercial card  -->
+            <div class="middle aligned eight wide computer twelve wide mobile column">
+                <div class="ui card" id="statement-card">
+                        <div class="event">
+                            <div class="content">
+                                <div class="center aligned header" >
+                                    <h1 id="statement-card-header" >Protect What Matters Most</h1>
+                                </div>
+                                <div class="center aligned summary" id="statement-card-text" >
+                                Aloha Security Systems is a preferred provider of state of the art Security System equipment and provides
+                                custom installation for both residential and commercial customers.
+                                Specializing in Surveillance, Card Entry Systems, Access Control and Metal Detectors. We are your #1 Choice for Security Systems and Installation. 
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        <div class="middle aligned eight wide computer only column">
+            <div class="ui very padded compact middle aligned centered segment" >
+                <div class="ui equal width form">
+                    <div class="fields">
+                        <div class="field">
+                            <h1 id="quote-form-header">Get a FREE Quote!</h1>
+                            <p id="quote-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="field">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="field">
+                        <label>Email</label>
+                        <input type="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="field">
+                        <label>Phone</label>
+                        <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="field">
+                        <label>Zip</label>
+                        <input type="text" placeholder="Middle Name">
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="field">
+                            <select>
+                                <option value="">Security Type</option>
+                                <option value="1">Residential</option>
+                                <option value="0">Commercial</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <button class="ui button primary" id="quote-submit-button" >Get a free quote today!</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+        
+    <script src="./js/landing.js"  ></script>
+</body>
+</html>
