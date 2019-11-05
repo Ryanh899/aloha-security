@@ -23,7 +23,12 @@
     /* padding-bottom: 0px; */
     /* padding-top: 0px; */
     margin-bottom: 0px;
-}; 
+}
+
+#info-header-divider {
+    font-size: 20px;
+    color: black;
+}
 
 #header-column {
     /* padding-top: 15px; */
@@ -39,6 +44,7 @@
 #info-header-buttons {
     background: #8A9ABC;
     color: white;
+    width: 100%;
 }
 
 #menu-title {
@@ -59,7 +65,7 @@
     background:#8A9ABC;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     padding: 20px;
 }
 
@@ -89,3 +95,25 @@
     text-align: center;
     color: grey;
 }
+
+#indoor-security-camera-image {
+    height: auto;
+    width: 100%;
+}
+
+#arrow-icon {
+    float: right;
+}
+
+#access-control-image {
+    height: auto;
+    width: 100%;
+}
+
+#access-control-header {
+    background-image: url('https://www.psimagazine.co.uk/wp-content/uploads/2018/10/door-entry-smartcard_blog-door-access-control.jpg');
+    text-align: center;
+    height: 200px;
+}
+
+    

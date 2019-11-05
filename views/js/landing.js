@@ -6,3 +6,7 @@ $('.ui.sticky')
     context: '#context'
   })
 ;
+
+$('.menu .item')
+  .tab()
+;

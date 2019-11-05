@@ -17,12 +17,29 @@
     <div class="ui grid container" id='landing-section'>
         <!-- header  -->
         <div class="ui top attached label" id="info-header">
-            <button class="ui button" id="info-header-buttons">
-                <i class="mail icon"></i>info@aloha.com
-            </button>
-            <button class="ui button" id="info-header-buttons" >
-                <i class="phone icon"></i>999-999-9999
-            </button>
+            <div class="ui grid">
+                <div class="row">
+                    <div class="three wide computer eight wide mobile column">
+                        <button class="ui button" id="info-header-buttons">
+                            <i class="mail icon"></i>info@aloha.com
+                        </button>
+                    </div>
+                    <div class="three wide computer eight wide mobile column">
+                        <button class="ui button" id="info-header-buttons" >
+                            <i class="phone icon"></i>999-999-9999
+                        </button>
+                    </div>
+                    <div class="four wide computer only middle aligned right floated column">
+                        <p>Leaders in Surveillance and Card Entry Systems</p>
+                    </div>
+                    <div class="one wide computer only middle aligned column">
+                        <p id="info-header-divider" >|</p>
+                    </div>
+                    <div class="three wide computer only middle aligned column">
+                        <p>Access Control at your finger tips</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- menu  -->
         <div class="one column row ui attached" id="menu-row">
@@ -66,15 +83,17 @@
             </div>
         </div>
         <!-- section below header  -->
-        <div class="centered row" id="context">
-            <!-- pick between residential or commercial card  -->
-            <div class="middle aligned eight wide computer twelve wide mobile column">
+        <div class="row" id="context">
+            <!-- statement card  -->
+            <div class="middle aligned eight wide computer sixteen wide mobile column">
                 <div class="ui card" id="statement-card">
                         <div class="event">
                             <div class="content">
+                                <!-- card header  -->
                                 <div class="center aligned header" >
                                     <h1 id="statement-card-header" >Protect What Matters Most</h1>
                                 </div>
+                                <!-- card summary  -->
                                 <div class="center aligned summary" id="statement-card-text" >
                                 Aloha Security Systems is a preferred provider of state of the art Security System equipment and provides
                                 custom installation for both residential and commercial customers.
@@ -84,15 +103,18 @@
                         </div>
                 </div>
             </div>
+            <!-- free quote form  -->
         <div class="middle aligned eight wide computer only column">
             <div class="ui very padded compact middle aligned centered segment" >
                 <div class="ui equal width form">
+                    <!-- header  -->
                     <div class="fields">
                         <div class="field">
                             <h1 id="quote-form-header">Get a FREE Quote!</h1>
                             <p id="quote-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
                         </div>
                     </div>
+                    <!-- first row  -->
                     <div class="fields">
                         <div class="field">
                         <label>Full Name</label>
@@ -103,16 +125,18 @@
                         <input type="email" placeholder="Email">
                         </div>
                     </div>
+                    <!-- second row  -->
                     <div class="fields">
                         <div class="field">
                         <label>Phone</label>
-                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Phone">
                         </div>
                         <div class="field">
                         <label>Zip</label>
-                        <input type="text" placeholder="Middle Name">
+                        <input type="text" placeholder="Zip">
                         </div>
                     </div>
+                    <!-- security type  -->
                     <div class="fields">
                         <div class="field">
                             <select>
@@ -123,13 +147,186 @@
                         </div>
                     </div>
                 </div>
+                <!-- submit button  -->
                 <button class="ui button primary" id="quote-submit-button" >Get a free quote today!</button>
             </div>
         </div>
     </div>
 </div>
+<!-- services section  -->
+<div class="ui grid container" id='services-section'>
+    <div class="row">
+            <div class="sixteen wide computer only sixteen wide tablet column">
+                <div class="ui grid">
+                    <div class="four wide column">
+                        <div class="ui vertical fluid tabular sticky menu">
+                            <div class="item active" data-tab="one">Security Cameras</div>
+                            <div class="item" data-tab="two">Access Control</div>
+                            <div class="item" data-tab="three">Alarm Monitoring</div>
+                            <div class="item" data-tab="four">Metal Detectors</div>
+                        </div>
+                    </div>
+                    <div class="twelve wide stretched column">
+                        <div class="ui segment">
+                            <div class="ui tab segment" data-tab="one">
+                                <div class="ui grid">
+                                    <div class="eight wide middle aligned column">
+                                        <h1 id="indoor-security-camera-header" >Indoor Security Cameras</h1>
+                                        <p>With clear, HD video – day or night – it’s easy to check in on the kids; two- and four-legged alike.</p>
+                                        <i class="right arrow icon" id="arrow-icon" ></i>
+                                    </div>
+                                    <div class="eight wide centered column">
+                                        <a>
+                                            <img id="indoor-security-camera-image" src='https://images.homedepot-static.com/productImages/fa9463dd-b344-4b1b-9cfd-5278855781d9/svn/white-google-smart-security-cameras-nc3100us-64_1000.jpg' >
+                                        </a>
+                                    </div>
+                                    <div class="eight wide centered column">
+                                        <a>
+                                            <img id="indoor-security-camera-image" src='https://images.homedepot-static.com/productImages/bceefb3e-b40d-4a34-826e-9c434ea7ae9c/svn/white-google-smart-home-electronics-nc4100us-64_1000.jpg' >
+                                        </a>
+                                    </div>
+                                    <div class="eight wide middle aligned column">
+                                        <h1 id="indoor-security-camera-header" >Outdoor Security Cameras</h1>
+                                        <p>Want to check what that noise was outside? Simple. Just check your Aloha outdoor security cameras any time of day, or night. </p>
+                                        <i class="left arrow icon"></i>
+                                    </div>
+                                        <div class="middle aligned sixteen wide computer only column">
+                                            <div class="ui very padded middle aligned centered segment" >
+                                                <div class="ui equal width form">
+                                                    <!-- header  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                            <h1 id="quote-form-header">Free On-site Consultation!</h1>
+                                                            <p id="quote-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- first row  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                        <label>Full Name</label>
+                                                        <input type="text" placeholder="Full Name">
+                                                        </div>
+                                                        <div class="field">
+                                                        <label>Email</label>
+                                                        <input type="email" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <!-- second row  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                        <label>Phone</label>
+                                                        <input type="text" placeholder="Phone">
+                                                        </div>
+                                                        <div class="field">
+                                                        <label>Zip</label>
+                                                        <input type="text" placeholder="Zip">
+                                                        </div>
+                                                    </div>
+                                                    <!-- security type  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                            <select>
+                                                                <option value="">Security Type</option>
+                                                                <option value="1">Residential</option>
+                                                                <option value="0">Commercial</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <!-- submit button  -->
+                                                <button class="ui button primary" id="quote-submit-button" >Get Secure Today!</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="ui bottom attached tab segment active" data-tab="two">
+                                <div class="ui grid">
+                                    <div class="eight wide middle aligned column">
+                                        <h1 id="indoor-security-camera-header" >Custom Door Access Control</h1>
+                                        <p>HID Global is the trusted leader in providing access and ID management solutions for the delivery of secure identity.</p>
+                                        <i class="right arrow icon" id="arrow-icon" ></i>
+                                    </div>
+                                    <div class="eight wide centered middle aligned column">
+                                        <a>
+                                            <img id="access-control-image" src='https://www.psimagazine.co.uk/wp-content/uploads/2018/10/door-entry-smartcard_blog-door-access-control.jpg' >
+                                        </a>
+                                    </div>
+                                    <div class="eight wide middle aligned centered column">
+                                        <a>
+                                            <img id="access-control-image" src='https://techsisindia.com/wp-content/uploads/2018/03/time-attendance-system-1.jpg' >
+                                        </a>
+                                    </div>
+                                    <div class="eight wide middle aligned column">
+                                        <h1 id="indoor-security-camera-header" >Time and Attendance System</h1>
+                                        <p>A time and attendance system enables an employer to monitor their employees working hours and late arrivals, early departures, time taken on breaks and absenteeism.</p>
+                                        <i class="left arrow icon"></i>
+                                    </div>
+                                    <div class="middle aligned sixteen wide column">
+                                        <div class="ui very padded middle aligned centered segment" >
+                                            <div class="ui equal width form">
+                                                <!-- header  -->
+                                                <div class="fields">
+                                                    <div class="field">
+                                                        <h1 id="quote-form-header">Free On-site Consultation!</h1>
+                                                        <p id="quote-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- first row  -->
+                                                <div class="fields">
+                                                    <div class="field">
+                                                    <label>Full Name</label>
+                                                    <input type="text" placeholder="Full Name">
+                                                    </div>
+                                                    <div class="field">
+                                                    <label>Email</label>
+                                                    <input type="email" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <!-- second row  -->
+                                                <div class="fields">
+                                                    <div class="field">
+                                                    <label>Phone</label>
+                                                    <input type="text" placeholder="Phone">
+                                                    </div>
+                                                    <div class="field">
+                                                    <label>Zip</label>
+                                                    <input type="text" placeholder="Zip">
+                                                    </div>
+                                                </div>
+                                                <!-- security type  -->
+                                                <div class="fields">
+                                                    <div class="field">
+                                                        <select>
+                                                            <option value="">Security Type</option>
+                                                            <option value="1">Residential</option>
+                                                            <option value="0">Commercial</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- submit button  -->
+                                            <button class="ui button primary" id="quote-submit-button" >Get Secure Today!</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui bottom attached tab segment" data-tab="three">
+                                <p></p>
+                                <p></p>
+                            </div>
+                            <div class="ui bottom attached tab segment" data-tab="four">
+                                <p></p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+</div>
+
     
         
-    <script src="./js/landing.js"  ></script>
+    <script src="/js/landing.js"  ></script>
 </body>
 </html>
