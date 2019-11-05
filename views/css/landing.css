@@ -107,7 +107,7 @@
 
 #access-control-image {
     height: auto;
-    width: 100%;
+    width: 80%;
 }
 
 #access-control-header {
@@ -118,7 +118,7 @@
 
 #services-header-row {
     background: #8A9ABC;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 #services-header-text {
@@ -131,4 +131,19 @@
 #services-menu {
     font-family: 'Roboto', sans-serif;
 }
-    
+
+#metal-detector-contact {
+    background: #417DB9;
+}
+
+#metal-detector-form-text{
+    text-align: center;
+    color: black;
+}
+
+#metal-detectir-submit-button {
+    background: white;
+    color: #417DB9;
+    width: 100%;
+    font-size: 20px;
+}

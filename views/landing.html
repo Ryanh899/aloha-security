@@ -160,7 +160,7 @@
             <h1 id="services-header-text" >Services</h1>
         </div>
     </div>
-    <div class="row">
+    <div class="computer only row">
             <div class="sixteen wide computer sixteen wide tablet sixteen wide mobile column">
                 <div class="ui grid">
                     <div class="four wide computer five wide mobile column">
@@ -195,14 +195,14 @@
                                         <p>Want to check what that noise was outside? Simple. Just check your Aloha outdoor security cameras any time of day, or night. </p>
                                         <i class="left arrow icon"></i>
                                     </div>
-                                        <div class="middle aligned sixteen wide computer only column">
-                                            <div class="ui very padded middle aligned centered segment" >
-                                                <div class="ui equal width form">
+                                    <div class="middle aligned sixteen wide computer only column">
+                                            <div class="ui very padded middle aligned centered segment" id="metal-detector-contact"  >
+                                                <div class="ui equal width form" >
                                                     <!-- header  -->
                                                     <div class="fields">
                                                         <div class="field">
-                                                            <h1 id="quote-form-header">Free On-site Consultation!</h1>
-                                                            <p id="quote-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
+                                                            <h1 id="quote-form-header">FREE On-Site Consultation!</h1>
+                                                            <p id="metal-detector-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
                                                         </div>
                                                     </div>
                                                     <!-- first row  -->
@@ -238,8 +238,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                    <!-- submit button  -->
-                                                <button class="ui button primary" id="quote-submit-button" >Get Secure Today!</button>
+                                                <!-- submit button  -->
+                                                <div class="ui animated fade button" id="metal-detectir-submit-button" tabindex="0">
+                                                    <div class="visible content">Get Secure Today!</div>
+                                                    <div class="hidden content">
+                                                        <i class="lock icon"></i>Submit
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -267,13 +272,163 @@
                                         <i class="left arrow icon"></i>
                                     </div>
                                     <div class="middle aligned sixteen wide computer only column">
-                                        <div class="ui very padded middle aligned centered segment" >
-                                            <div class="ui equal width form">
+                                    <div class="ui very padded middle aligned centered segment" id="metal-detector-contact"  >
+                                        <div class="ui equal width form" >
+                                            <!-- header  -->
+                                            <div class="fields">
+                                                <div class="field">
+                                                    <h1 id="quote-form-header">FREE On-Site Consultation!</h1>
+                                                    <p id="metal-detector-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
+                                                </div>
+                                            </div>
+                                            <!-- first row  -->
+                                            <div class="fields">
+                                                <div class="field">
+                                                <label>Full Name</label>
+                                                <input type="text" placeholder="Full Name">
+                                                </div>
+                                                <div class="field">
+                                                <label>Email</label>
+                                                <input type="email" placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <!-- second row  -->
+                                            <div class="fields">
+                                                <div class="field">
+                                                <label>Phone</label>
+                                                <input type="text" placeholder="Phone">
+                                                </div>
+                                                <div class="field">
+                                                <label>Zip</label>
+                                                <input type="text" placeholder="Zip">
+                                                </div>
+                                            </div>
+                                            <!-- security type  -->
+                                            <div class="fields">
+                                                <div class="field">
+                                                    <select>
+                                                        <option value="">Security Type</option>
+                                                        <option value="1">Residential</option>
+                                                        <option value="0">Commercial</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- submit button  -->
+                                        <div class="ui animated fade button" id="metal-detectir-submit-button" tabindex="0">
+                                            <div class="visible content">Get Secure Today!</div>
+                                            <div class="hidden content">
+                                                <i class="lock icon"></i>Submit
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="ui bottom attached tab segment" data-tab="three">
+                                <div class="ui grid">
+                                    <div class="eight wide computer sixteen wide mobile middle aligned column">
+                                        <h1 id="indoor-security-camera-header" >Intrusion Detection</h1>
+                                        <p>One of the ADT experienced sales agents will survey your building personally to fully understand your needs. We take pride in asking the essential questions to ensure the best design solution for you.</p>
+                                        <i class="right arrow icon" id="arrow-icon" ></i>
+                                    </div>
+                                    <div class="eight wide centered computer only column">
+                                        <a>
+                                            <img id="indoor-security-camera-image" src='https://www.adt.com/content/dam/adt6/pages/home-security/ADT-apps@2x.jpg' >
+                                        </a>
+                                    </div>
+                                    <div class="eight wide centered computer only column">
+                                        <a>
+                                            <img id="indoor-security-camera-image" src='https://www.adt.com/content/dam/adt6/pages/home/product-collage-m@2x%202.png' >
+                                        </a>
+                                    </div>
+                                    <div class="eight wide computer sixteen wide mobile middle aligned column">
+                                        <h1 id="indoor-security-camera-header" >Home Security Systems</h1>
+                                        <p>Our experts can help you customize a home security system with easy-to-use equipment and special features to meet your safety needs. </p>
+                                        <i class="left arrow icon"></i>
+                                    </div>
+                                        <div class="middle aligned sixteen wide computer only column">
+                                            <div class="ui very padded middle aligned centered segment" id="metal-detector-contact"  >
+                                                <div class="ui equal width form" >
+                                                    <!-- header  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                            <h1 id="quote-form-header">FREE On-Site Consultation!</h1>
+                                                            <p id="metal-detector-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- first row  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                        <label>Full Name</label>
+                                                        <input type="text" placeholder="Full Name">
+                                                        </div>
+                                                        <div class="field">
+                                                        <label>Email</label>
+                                                        <input type="email" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <!-- second row  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                        <label>Phone</label>
+                                                        <input type="text" placeholder="Phone">
+                                                        </div>
+                                                        <div class="field">
+                                                        <label>Zip</label>
+                                                        <input type="text" placeholder="Zip">
+                                                        </div>
+                                                    </div>
+                                                    <!-- security type  -->
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                            <select>
+                                                                <option value="">Security Type</option>
+                                                                <option value="1">Residential</option>
+                                                                <option value="0">Commercial</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- submit button  -->
+                                                <div class="ui animated fade button" id="metal-detectir-submit-button" tabindex="0">
+                                                    <div class="visible content">Get Secure Today!</div>
+                                                    <div class="hidden content">
+                                                        <i class="lock icon"></i>Submit
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="ui bottom attached tab segment" data-tab="four">
+                                <div class="ui grid">
+                                    <div class="centered row">
+                                        <div class="twelve wide column">
+                                            <img src="https://static.wixstatic.com/media/8e1dee_3226c4a60a5742c5a0cb9b3ce10769df~mv2.jpg/v1/fill/w_900,h_371,al_c,q_80,usm_0.66_1.00_0.01/8e1dee_3226c4a60a5742c5a0cb9b3ce10769df~mv2.webp" >
+                                        </div>
+                                        <div class="ten wide column">
+                                            <p>
+                                            Features: 
+                                            </p>
+                                            <ul>
+                                                <li>33 pinpoint zones to precisely identify multiple target locations from head to toe on the left, center and right sides of the body.</li>
+                                                <li>More than 20 standard programs for security application versatility.</li>
+                                                <li>International security standards—The PD 6500i meets the world’s highest test certifications, including the following international airports.</li>
+                                                <li>Dual detection: with transmitters and receivers in each panel, the PD 6500i is the equivalent of two detectors in one. By scanning from both sides, the PD 6500i provides superior detection, uniformity and performance.</li>
+                                                <li>Advanced broadband detection technology provides superior target analysis, ferrous and non-ferrous weapons detection, discrimination and higher throughput.</li>
+                                                <li>Directional counter with four settings for counting (forward, reverse, subtract in reverse, and bi-directional).</li>
+                                                <li>Superior versatility: selectable settings designed for airports, courthouses, prisons, schools, facilities, special events, mass transit, loss prevention and many other applications.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sixteen wide column">
+                                            <div class="ui very padded middle aligned centered segment" id="metal-detector-contact"  >
+                                            <div class="ui equal width form" >
                                                 <!-- header  -->
                                                 <div class="fields">
                                                     <div class="field">
-                                                        <h1 id="quote-form-header">Free On-site Consultation!</h1>
-                                                        <p id="quote-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
+                                                        <h1 id="quote-form-header">FREE On-Site Consultation!</h1>
+                                                        <p id="metal-detector-form-text" >Fill out the form below and a member of the Aloha security team will reach out to you shortly.</p>
                                                     </div>
                                                 </div>
                                                 <!-- first row  -->
@@ -309,26 +464,21 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- submit button  -->
-                                            <button class="ui button primary" id="quote-submit-button" >Get Secure Today!</button>
+                                    <!-- submit button  -->
+                                    <div class="ui animated fade button" id="metal-detectir-submit-button" tabindex="0">
+                                        <div class="visible content">Get Secure Today!</div>
+                                        <div class="hidden content">
+                                            <i class="lock icon"></i>Submit
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="ui bottom attached tab segment" data-tab="three">
-                                <p></p>
-                                <p></p>
-                            </div>
-                            <div class="ui bottom attached tab segment" data-tab="four">
-                                <p></p>
-                                <p></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        
-</div>
+        </div>
+    </div>
 
     
         
