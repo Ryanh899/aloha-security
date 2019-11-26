@@ -89,6 +89,7 @@
 #quote-form-header {
     text-align: center;
     font-size: 35px;
+    color: white;
 }
 
 #quote-form-text {
@@ -146,4 +147,10 @@
     color: #417DB9;
     width: 100%;
     font-size: 20px;
+}
+
+#first-quote-form-header {
+    text-align: center;
+    font-size: 35px;
+    color: black;
 }
